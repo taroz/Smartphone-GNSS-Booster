@@ -1,0 +1,28 @@
+# Normalize line endings: store text as LF in the repo, check out native per OS.
+* text=auto
+
+# Docs / source / config — always treated as text (normalized to LF in the repo)
+*.md         text
+*.kt         text
+*.kts        text
+*.java       text
+*.c          text
+*.h          text
+*.xml         text
+*.pro        text
+*.properties text
+*.gitignore  text
+*.gitattributes text
+
+# Scripts that must keep a specific ending regardless of platform
+*.sh         text eol=lf
+gradlew      text eol=lf
+*.bat        text eol=crlf
+gradlew.bat  text eol=crlf
+
+# Binaries — never normalize
+*.jar        binary
+*.png        binary
+*.jpg        binary
+*.jks        binary
+*.keystore   binary

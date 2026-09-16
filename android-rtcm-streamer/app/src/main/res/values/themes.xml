@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Use a platform NoActionBar theme as the parent for Compose rendering
+         (avoids depending on the Material XML library). -->
+    <style name="Theme.RtcmStreamer" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

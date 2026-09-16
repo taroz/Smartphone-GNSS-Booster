@@ -1,0 +1,16 @@
+# KiCad local / generated files
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+*.bak
+*.bck
+*-save.kicad_*
+_autosave-*
+\#auto_saved_files#
+*.net
+.history/
+
+# OS
+.DS_Store
+Thumbs.db

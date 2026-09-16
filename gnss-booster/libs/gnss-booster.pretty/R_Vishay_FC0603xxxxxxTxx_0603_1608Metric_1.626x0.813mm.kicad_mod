@@ -1,0 +1,222 @@
+(footprint "R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "High-frequency (up to 40 GHz) thin-film resistor designed for use with the PD0922J5050S2HF power divider, https://www.vishay.com/en/product/60093/")
+	(tags "SMD chip resistor Vishay PD0922J5050S2HF FC0603E1000BTBSxx")
+	(property "Reference" "REF**"
+		(at -3 0.595 0)
+		(layer "F.SilkS")
+		(uuid "f116d533-deb4-4b56-893a-ecf468f869f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "dc94090e-09d4-494f-9347-a8e5af70fb99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eb9ebb7-84f0-4e89-935f-7252747a977b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b97105e-3cc0-4de1-b31d-4ad9347db39b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2076508"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa53c6c2-e256-44bb-9687-c93285e81ee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Remark" "Out of Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b801d2d6-3a8c-4160-af0b-5ab3e095c173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "R_*")
+	(sheetname "/")
+	(sheetfile "gnss-booster.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.237258 -0.5225)
+		(end 0.237258 -0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83b78e68-43f4-4e4f-a5a1-09f303c8b14b")
+	)
+	(fp_line
+		(start -0.237258 0.5225)
+		(end 0.237258 0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f019491-9b7e-4a6d-bf70-81accec8861e")
+	)
+	(fp_line
+		(start -1.48 -0.73)
+		(end 1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efeb2e9e-1a2e-4677-820f-7a4081d6cd1e")
+	)
+	(fp_line
+		(start -1.48 0.73)
+		(end -1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36a43cd9-7965-426c-bad5-969947e0e13c")
+	)
+	(fp_line
+		(start 1.48 -0.73)
+		(end 1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "497c22d0-1291-4b22-9851-2ddb56dcf565")
+	)
+	(fp_line
+		(start 1.48 0.73)
+		(end -1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78d2dab1-2630-455d-928d-ad80f097394e")
+	)
+	(fp_line
+		(start -0.813 -0.4065)
+		(end 0.813 -0.4065)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be827bcb-b6b7-4549-af6f-ede8389d97f4")
+	)
+	(fp_line
+		(start -0.813 0.4065)
+		(end -0.813 -0.4065)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1a46638-8e06-41aa-8db9-c36f4617a981")
+	)
+	(fp_line
+		(start 0.813 -0.4065)
+		(end 0.813 0.4065)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e548530-99cb-4d88-8356-8fbc512783b2")
+	)
+	(fp_line
+		(start 0.813 0.4065)
+		(end -0.813 0.4065)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecb07b3f-adbc-4fbd-8ef7-3b7862326d82")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c03c9fb-4886-4e3f-8ef9-c3cf901991b9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.66 0)
+		(size 0.41 0.917)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3dae0ac-26de-49ae-957a-8adfa176454a")
+	)
+	(pad "2" smd rect
+		(at 0.66 0)
+		(size 0.41 0.917)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c74e8209-e70d-4bea-a348-d002a605c64b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3d/R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

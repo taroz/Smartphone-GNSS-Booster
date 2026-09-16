@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- App-specific external files dir (getExternalFilesDir): holds gnsslog/ rinex/ rtcm/ pos/. -->
+    <external-files-path name="files" path="." />
+</paths>

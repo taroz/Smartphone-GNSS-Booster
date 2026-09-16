@@ -1,0 +1,257 @@
+(footprint "SMA_Molex_732512440_Female_Embed"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "50 Ohms, SMA Jack, Edge Mount, 0.76µm Gold Center Contact Plating, https://www.molex.com/ja-jp/products/part-detail/732512440")
+	(tags "RF Connector edge")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a2cf6a00-29f6-4274-a9dc-70df46d85abe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA_Molex_732512440_Female_Embed"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "356cc3bb-000b-41ec-be1a-f41f7d8f1990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12d93dbf-c96c-4f94-b787-debed9a94cf5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29b0f6e1-7173-41ec-8710-9d55443105a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C588468"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12c05384-bb9b-4476-8cf0-9f35db1ddcb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Remark" "Extended"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "960c885b-b3a7-4f72-b5cc-5a0fa20ed347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+	(sheetname "/")
+	(sheetfile "gnss-booster.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.66 -3.175)
+		(end 0 -3.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f86d1b04-1ecd-4d85-b918-73fa1748b4f1")
+	)
+	(fp_line
+		(start 1.66 2.175)
+		(end 1.66 -2.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44c747fe-5a0a-41a6-8d72-6d536d0c9729")
+	)
+	(fp_line
+		(start 1.66 3.175)
+		(end 0 3.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0c923e84-e315-472b-be60-53d149b4cc54")
+	)
+	(fp_arc
+		(start 1.66 -3.175)
+		(mid 2.16 -2.675)
+		(end 1.66 -2.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b11465e9-4646-4fa7-a717-8ade5ae07a9b")
+	)
+	(fp_arc
+		(start 1.66 2.175)
+		(mid 2.16 2.675)
+		(end 1.66 3.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6bc7bcad-773d-4317-8db2-8153320cd3ba")
+	)
+	(fp_line
+		(start -7.87 -4.5)
+		(end -7.87 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9235a4ce-8cfe-4982-81ec-f8dcdc865764")
+	)
+	(fp_line
+		(start 1.66 -4.5)
+		(end -7.87 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7aa429b5-187b-4513-b166-bf2538b96fc1")
+	)
+	(fp_line
+		(start 1.66 4.5)
+		(end -7.87 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51c3b747-b5b1-4636-9594-fd499cf3786a")
+	)
+	(fp_line
+		(start 6.66 -4.5)
+		(end 1.66 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45a4ad1f-a896-4ad8-8736-94b2d7685c5f")
+	)
+	(fp_line
+		(start 6.66 -4.5)
+		(end 6.66 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f211dc3-e3bd-45f1-8b28-2ef6aa665dc4")
+	)
+	(fp_line
+		(start 6.66 4.5)
+		(end 1.66 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae9b9fc8-9999-4be4-8452-6171c450b38e")
+	)
+	(fp_text user "PCB Edge"
+		(at 1 0 90)
+		(layer "Dwgs.User")
+		(uuid "86dd822e-43e3-4f5b-a798-d49472c7eebe")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bba357ec-9e5d-4f46-be92-dd182e1410c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.845 0)
+		(size 1.97 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a214d766-570a-47bf-8dcd-e7ae094986e3")
+	)
+	(pad "2" thru_hole circle
+		(at 4.97 -2.77)
+		(size 2.52 2.52)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11054f55-d7f9-4748-be88-584b5d040111")
+	)
+	(pad "2" thru_hole circle
+		(at 4.97 2.77)
+		(size 2.52 2.52)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ecde5d5-6ee4-4394-9b50-1d2f7eb1e3da")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3d/SMA_Molex_732512440_Female.stp"
+		(offset
+			(xyz 1.66 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

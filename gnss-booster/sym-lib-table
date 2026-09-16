@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "gnss-booster")(type "KiCad")(uri "${KIPRJMOD}/libs/gnss-booster.kicad_sym")(options "")(descr "Project symbols (parts not in the KiCad standard library)"))
+)

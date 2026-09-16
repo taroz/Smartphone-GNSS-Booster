@@ -1,0 +1,273 @@
+(footprint "Xinger_0805_2012Metric-6_Pad0.33x0.41mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://www.ttm.com/en/solutions/rfs-components/xinger-components")
+	(tags "coupler rf balun divider PD0922J5050S2HF DC4759J5020AHF FC0603E1000BTBSxx")
+	(property "Reference" "REF**"
+		(at 1 3 270)
+		(layer "F.SilkS")
+		(uuid "992f6e9d-741d-4222-8ab5-a5c02b6c68f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Xinger_0805_2012Metric-6_Pad0.33x0.41mm"
+		(at 0 1.95 180)
+		(layer "F.Fab")
+		(uuid "418deb3d-4097-4b85-a987-581c2a573fda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.ttm.com/repository/products/wireless-xinger/power-dividers/PD0922J5050S2HF/PD0922J5050S2HF.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1203558-ad4f-4dee-bbe7-dcab0fd16380")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.95-2.15GHz Wilkinson Power Divider, Xinger 0805"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea6258dd-3c24-4d8e-ac65-aa92e9a9de6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5136968"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59af16dd-0333-4978-91f2-120f4d89b142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Remark" "Out of Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81444f3a-07ab-4e66-8b11-4542e8a07f44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "gnss-booster.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.65 1.12)
+		(end 0.64 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74a36668-dcd3-45ca-abeb-58960b9613ec")
+	)
+	(fp_line
+		(start 0 -1.12)
+		(end 0.64 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6013003c-3145-4e78-b935-60f74d96b43d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.76 -1.12) (xy -1.04 -1.12) (xy -0.76 -1.4) (xy -0.76 -1.12)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2d09a7fe-cad0-4af0-9ece-7df3d21dc1b0")
+	)
+	(fp_line
+		(start -0.91 -1.27)
+		(end 0.91 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4379ae1-a3cf-4b06-92d8-79d11ac8443f")
+	)
+	(fp_line
+		(start -0.91 1.27)
+		(end -0.91 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac6f5b5b-07ea-4c8e-9810-73e26a04159a")
+	)
+	(fp_line
+		(start 0.91 -1.27)
+		(end 0.91 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bed3803-80f8-486b-b0a0-115379debe24")
+	)
+	(fp_line
+		(start 0.91 1.27)
+		(end -0.91 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f17e8a2-4349-4997-8d9c-52c8e347aefc")
+	)
+	(fp_line
+		(start -0.645 -0.6975)
+		(end -0.645 1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "449d3f32-cdaa-4a4b-b7ba-91fadc701634")
+	)
+	(fp_line
+		(start -0.645 -0.6975)
+		(end -0.3225 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1612fff-b01f-475d-a02f-375c5fad9446")
+	)
+	(fp_line
+		(start -0.645 1.02)
+		(end 0.645 1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bef1b35-6d83-4af4-b7bd-c1f61e1c188b")
+	)
+	(fp_line
+		(start 0.645 -1.02)
+		(end -0.3225 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35da53cc-acfe-494d-853a-66fa6212c815")
+	)
+	(fp_line
+		(start 0.645 1.02)
+		(end 0.645 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e6f8b4c-77ea-4da8-84fb-c1ac10beffb6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "b1142374-9155-43f1-9c37-67aee8e7e0e6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.495 -0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(uuid "ad52bbaf-423d-4091-9388-4833a1f69386")
+	)
+	(pad "2" smd rect
+		(at -0.495 0 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(uuid "0d71451e-f8ac-4267-88f1-a317e8c8c737")
+	)
+	(pad "3" smd rect
+		(at -0.495 0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(uuid "4e6aad73-118e-4eb4-8e03-9cbceb8197dc")
+	)
+	(pad "4" smd rect
+		(at 0.495 0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(uuid "facf3c79-49e6-421a-a5d2-c5c30193a355")
+	)
+	(pad "5" smd rect
+		(at 0.495 0 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(uuid "2151e7f8-1ae4-4e05-ae03-04ef390cdd6a")
+	)
+	(pad "6" smd rect
+		(at 0.495 -0.66 270)
+		(size 0.41 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(uuid "548f71c3-6504-410e-a211-78b492f6dd2a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3d/Xinger_0805_2012Metric-6_H0.70mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
