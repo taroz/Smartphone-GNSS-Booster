@@ -113,7 +113,17 @@ Check your local radio regulations before use.
 
 ## License
 
-Released under the MIT License (see the repository root [`LICENSE`](../LICENSE)).
+Copyright (c) 2026 Taro Suzuki.
+
+This hardware design (schematic, layout, libraries, fabrication outputs and this
+documentation) is licensed under the CERN Open Hardware Licence Version 2 - Permissive
+(CERN-OHL-P-2.0). You may redistribute and modify it under the terms of that licence,
+see [`LICENSE`](LICENSE) or <https://ohwr.org/cern_ohl_p_v2.txt>. It is distributed
+WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, including of merchantability, satisfactory
+quality and fitness for a particular purpose.
+
+The Android app in [`android-rtcm-streamer/`](../android-rtcm-streamer) is licensed
+separately under the MIT License (see the repository root [`LICENSE`](../LICENSE)).
 Component datasheets and 3D models are the property of their respective manufacturers.
 
 ## Acknowledgements

@@ -69,9 +69,12 @@ Each directory has its own README with build, fabrication and usage instructions
 
 ## License
 
-MIT License, see [`LICENSE`](LICENSE). The app bundles parts of
-[RTKLIB](https://github.com/rtklibexplorer/RTKLIB) (BSD 2-Clause), see
-[`android-rtcm-streamer/app/src/main/cpp/rtklib/LICENSE.txt`](android-rtcm-streamer/app/src/main/cpp/rtklib/LICENSE.txt).
+- **Hardware** ([`gnss-booster/`](gnss-booster/)): CERN Open Hardware Licence Version 2 -
+  Permissive (CERN-OHL-P-2.0), see [`gnss-booster/LICENSE`](gnss-booster/LICENSE).
+- **Software** ([`android-rtcm-streamer/`](android-rtcm-streamer/)) and everything else in
+  this repository: MIT License, see [`LICENSE`](LICENSE). The app bundles parts of
+  [RTKLIB](https://github.com/rtklibexplorer/RTKLIB) (BSD 2-Clause), see
+  [`android-rtcm-streamer/app/src/main/cpp/rtklib/LICENSE.txt`](android-rtcm-streamer/app/src/main/cpp/rtklib/LICENSE.txt).
 
 ## Publications
 
