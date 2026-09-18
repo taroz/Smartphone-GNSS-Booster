@@ -2,19 +2,24 @@
 
 Smartphone-mounted GNSS signal re-radiator, designed in [KiCad](https://www.kicad.org/) 10.
 
-An external active GNSS antenna (with its own LNA, powered through the coax by this
-board) is connected to the SMA input. The board splits the signal into L1 and L5 paths
-and feeds a dual-band patch antenna on the back side, which re-radiates the signal into
-the smartphone's internal GNSS antenna. The phone therefore receives a much cleaner
-signal than it would with its own antenna alone, which is what makes RTK with the
-[android-rtcm-streamer](../android-rtcm-streamer) app practical.
+An external active GNSS antenna (Harxon HX-CU7603A or Beitian BT-230F, with its own
+LNA, powered through the coax by this board) is connected to the SMA input. The board
+splits the signal into L1 and L5 paths and feeds a dual-band patch antenna on the back
+side, which re-radiates the signal into the smartphone's internal GNSS antenna. The
+phone therefore receives a much cleaner signal than it would with its own antenna alone,
+which is what makes RTK with the [android-rtcm-streamer](../android-rtcm-streamer) app
+practical.
 
 ![Assembled booster: active antenna, booster board and wireless charging coil, mounted on a Google Pixel 7 Pro](docs/gnss-booster-assembled.jpg)
 
-Left: the parts of the booster. Right: mounted on the back of a Google Pixel 7 Pro, with
-the patch antenna facing the phone's internal GNSS antenna. The wireless charging coil
-supplies the +3.3 V for the board and the active antenna. A demonstration of the signal
-improvement is shown in the [top-level README](../README.md#demonstration).
+Off-the-shelf parts used together with the board:
+
+- **Active antenna** – Harxon HX-CU7603A or Beitian BT-230F, connected to the SMA
+  input `J1`.
+- **Power** – a commercial Qi wireless charging receiver
+  ([Nillkin Magic Tag](https://www.amazon.com/Nillkin-Wireless-Charging-Receiver-Charger/dp/B01M11UT3V/)).
+  Its 5 V output is wired to `J2` and powers the board and, through the bias tee, the
+  active antenna's LNA.
 
 | Top (components) | Bottom (patch antenna) |
 |---|---|
@@ -27,7 +32,7 @@ improvement is shown in the [top-level README](../README.md#demonstration).
 
 Signal path, from the SMA input `J1` to the patch antenna `AE1`:
 
-1. **Bias tee** – the inductor `L1` (120 nH) injects +3.3 V from `J2` onto the coax to
+1. **Bias tee** – the inductor `L1` (120 nH) injects +5 V from `J2` onto the coax to
    power the external antenna's LNA; `C1` (47 pF) blocks the DC from the RF path.
    `C2`/`C3`/`C4` decouple the supply.
 2. **Attenuator** – `R3`/`R4`/`R5` (37 Ω series, 150 Ω shunts) form a ~6 dB π attenuator
@@ -83,7 +88,7 @@ plugin are in [`production/`](production/):
 | L1 | Murata LQW18ANR12G80D, 120 nH | 0603 | Bias-tee inductor | C307612 |
 | D1–D4 | Littelfuse AXGD10402KR | 0402 | ESD protection | C434715 |
 | J1 | Molex 73251-2440 | SMA female, edge mount | RF input from the external antenna | C588468 |
-| J2 | JST SM02B-SRSS-TB | SH 1.0 mm, 2 pin | +3.3 V power input | C160402 |
+| J2 | JST SM02B-SRSS-TB | SH 1.0 mm, 2 pin | +5 V power input | C160402 |
 
 ## Opening the project
 
@@ -99,11 +104,6 @@ Open `gnss-booster.kicad_pro` in KiCad 10 (or newer). The project is self-contai
   included for the Xinger power divider and the Vishay 0603 resistor; the models for the
   patch antenna, the hybrid coupler and the SMA connector are vendor files that are not
   redistributed here. Missing models only affect the 3D viewer.
-
-Design checks (`kicad-cli sch erc` / `kicad-cli pcb drc`) report only intentional
-items: the +3.3 V and GND nets have no `PWR_FLAG` (they are driven by the `J2`
-connector), the antenna feed vias sit inside the antenna keepout on purpose, and a few
-courtyards overlap in the dense area around the SMA connector.
 
 ## Regulatory note
 

@@ -15,13 +15,6 @@ version is 8.0 (API 26).
 
 ![System block diagram and app screenshot: raw GNSS acquisition, RTCM streamer and viewer on the phone; RTK-GNSS engine on the cloud RTK server fed by a base station over NTRIP](docs/android-rtcm-streamer.png)
 
-Left: data flow. The phone acquires raw GNSS measurements, encodes them as RTCM
-observations and sends them over TCP to the RTK-GNSS engine (`rtkrcv`) on the cloud
-server, which also receives base station observations and navigation data over NTRIP.
-The solution is sent back over a second TCP connection and shown in the viewer.
-Right: the app screen with connection settings, status line, solution and a plot of the
-recent positions.
-
 ## Build and install from source
 
 ### Prerequisites
