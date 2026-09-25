@@ -82,9 +82,9 @@ If you use this project in your research, please cite one of the following paper
 
 - Taro Suzuki, "Smartphone GNSS Booster: Centimeter-Level Pedestrian Positioning Using a
   Portable Signal Re-Radiator," *Proceedings of the ION 2026 Pacific PNT Meeting*,
-  Honolulu, Hawaii, April 2026, pp. 512–524.
+  Honolulu, Hawaii, April 2026, pp. 512–524. [**Paper**](http://arxiv.org/abs/2609.23456)
 - Taro Suzuki, "Smartphone GNSS Booster for Real-Time Centimeter-Level Kinematic
-  Positioning: An Open Hardware and Software Approach," *Proceedings of the ION GNSS+ 2026*.
+  Positioning: An Open Hardware and Software Approach," *Proceedings of the ION GNSS+ 2026*. [**Slides**](https://www.taroz.net/paper/IONGNSS_2026_PPT.pdf)
 
 ## Acknowledgements
 
